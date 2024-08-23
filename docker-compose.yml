@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  amazon_app:
+    image: dayanand222/amazon_app:v0.1
+    container_name: amazon_app
+    ports:
+      - "8081:80"
+
+  zomato_app:
+    image: dayanand222/zomato_app:v0.1
+    container_name: zomato_app
+    ports:
+      - "8082:80"
